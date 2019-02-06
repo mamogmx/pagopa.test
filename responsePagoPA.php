@@ -78,13 +78,25 @@ if(in_array('esito',$keys) && in_array('id-richiesta',$keys)){
 	$result = curl_exec($ch);
 	echo $result;
 }
+if (in_array('iuv',$keys)){
+    $iuv = base64_decode($_REQUEST["iuv"]);
+    $iuv = ($iuv)?($iuv):($_REQUEST["iuv"]);
+    $sql = "SELECT * FROM pagopa.richiesta WHERE iuv=?;";
+    $stmt = $dbh->prepare($sql);
 
-$sql = "SELECT * FROM pagopa.richiesta WHERE data_pagamento IS NULL;";
-$stmt = $dbh->prepare($sql);
-
-if(!$stmt->execute()){
-    print_r($stmt->errorInfo());
+    if(!$stmt->execute()){
+        print_r($stmt->errorInfo());
 	die();
+    }
+}
+else{
+    $sql = "SELECT * FROM pagopa.richiesta WHERE data_pagamento IS NULL;";
+    $stmt = $dbh->prepare($sql);
+
+    if(!$stmt->execute()){
+        print_r($stmt->errorInfo());
+	die();
+    }
 }
 $res = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
