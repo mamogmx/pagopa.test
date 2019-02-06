@@ -1,0 +1,21 @@
+Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => G2W77L5EZ3IRY0ZK2C73BQNQ9APXMW
+    [importo] => 2
+    [codAut] => 
+    [mac] => 0cf0bd48caa04900572a2b50d076d8be1ebbdccb
+    [brand] => 
+    [tContab] => I
+    [esito] => ATTESA_RT
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => default@liguriadigitale.it
+    [cognome] => Marco Carbone
+    [nome] => Marco Carbone
+    [IUV] => 001900000002691
+    [uidriscossione] => 
+    [ParametriAggiuntivi] => 
+    [time] => 22-01-2019 18:32:58
+)

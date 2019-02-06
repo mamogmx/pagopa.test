@@ -1,0 +1,9 @@
+Array
+(
+    [id] => 1234
+    [codTrans] => 8A6SL4GBQ7Q74J6KE1WD0FRLDUN2IR
+    [iuv] => 26385132335283846807058729479151
+    [application] => test
+    [esito] => OK
+    [time] => 12-04-2018 10:54:30
+)

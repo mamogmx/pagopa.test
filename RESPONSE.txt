@@ -1,0 +1,641 @@
+Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => FF8932U3LUXK85F9QJ4S2JDLG2RUWZ
+    [importo] => 
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 
+    [uidriscossione] => 61033196950900711086
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 11:20:29
+)
+alias=SUAP-Claspezia-M1&codTrans=FF8932U3LUXK85F9QJ4S2JDLG2RUWZ&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&uidriscossione=61033196950900711086&ParametriAggiuntivi=&time=2019%2F01%2F24+11%3A20%3A29Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => FF8932U3LUXK85F9QJ4S2JDLG2RUWZ
+    [importo] => 556.89
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 2938528961484802
+    [uidriscossione] => 78740996522557830692
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 11:23:19
+)
+alias=SUAP-Claspezia-M1&codTrans=FF8932U3LUXK85F9QJ4S2JDLG2RUWZ&importo=556.89&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=2938528961484802&uidriscossione=78740996522557830692&ParametriAggiuntivi=&time=2019%2F01%2F24+11%3A23%3A19Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => LCEBSJ9RRQV22BZOOVWM4POQYWGKW1
+    [importo] => 272.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 8741442213930315
+    [uidriscossione] => 95918570179471329283
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 15:03:00
+)
+alias=SUAP-Claspezia-M1&codTrans=LCEBSJ9RRQV22BZOOVWM4POQYWGKW1&importo=272.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=8741442213930315&uidriscossione=95918570179471329283&ParametriAggiuntivi=&time=2019%2F01%2F24+15%3A03%3A00Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => J14FFCB5RNNWWWJUP8YKHPSQN71TW2
+    [importo] => 576.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 6859513274694314
+    [uidriscossione] => 94213853803678644569
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 15:18:24
+)
+alias=SUAP-Claspezia-M1&codTrans=J14FFCB5RNNWWWJUP8YKHPSQN71TW2&importo=576.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=6859513274694314&uidriscossione=94213853803678644569&ParametriAggiuntivi=&time=2019%2F01%2F24+15%3A18%3A24Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => WJDG3ZO06ZTAC5OWUCWF8RW6DOXE95
+    [importo] => 272.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 3814011093520828
+    [uidriscossione] => 85104576158878472609
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 15:27:10
+)
+alias=SUAP-Claspezia-M1&codTrans=WJDG3ZO06ZTAC5OWUCWF8RW6DOXE95&importo=272.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=3814011093520828&uidriscossione=85104576158878472609&ParametriAggiuntivi=&time=2019%2F01%2F24+15%3A27%3A10Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 9Y1TW79C2E2RV7G1XB1TQ86A96XFLG
+    [importo] => 1016.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 6983116921683591
+    [uidriscossione] => 28018883832211232134
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/24 17:00:26
+)
+alias=SUAP-Claspezia-M1&codTrans=9Y1TW79C2E2RV7G1XB1TQ86A96XFLG&importo=1016.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=6983116921683591&uidriscossione=28018883832211232134&ParametriAggiuntivi=&time=2019%2F01%2F24+17%3A00%3A26Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 2NVDWYXF22IEL8IHVO06A6PZKC1IUY
+    [importo] => 156.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 4806419452824457
+    [uidriscossione] => 13947851609088205115
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/25 11:37:03
+)
+alias=SUAP-Claspezia-M1&codTrans=2NVDWYXF22IEL8IHVO06A6PZKC1IUY&importo=156.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=4806419452824457&uidriscossione=13947851609088205115&ParametriAggiuntivi=&time=2019%2F01%2F25+11%3A37%3A03Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => GZIFF4ATHOM1PR4IKQP5AN9RY912Z2
+    [importo] => 488.54
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 7234102635915746
+    [uidriscossione] => 86979654019540971699
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 09:24:21
+)
+alias=SUAP-Claspezia-M1&codTrans=GZIFF4ATHOM1PR4IKQP5AN9RY912Z2&importo=488.54&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=7234102635915746&uidriscossione=86979654019540971699&ParametriAggiuntivi=&time=2019%2F01%2F28+09%3A24%3A21Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => GZIFF4ATHOM1PR4IKQP5AN9RY912Z2
+    [importo] => 488.54
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 7234102635915746
+    [uidriscossione] => 70259751665571337082
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 09:27:00
+)
+alias=SUAP-Claspezia-M1&codTrans=GZIFF4ATHOM1PR4IKQP5AN9RY912Z2&importo=488.54&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=7234102635915746&uidriscossione=70259751665571337082&ParametriAggiuntivi=&time=2019%2F01%2F28+09%3A27%3A00Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => CXYADTZDLMK6YRTJMC98WR63FZ7879
+    [importo] => 472.54
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 3435958667259332
+    [uidriscossione] => 87054339595012451761
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 09:34:52
+)
+alias=SUAP-Claspezia-M1&codTrans=CXYADTZDLMK6YRTJMC98WR63FZ7879&importo=472.54&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=3435958667259332&uidriscossione=87054339595012451761&ParametriAggiuntivi=&time=2019%2F01%2F28+09%3A34%3A52Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => LWUXI45OBG7QG3Q0T4SU2OCP8GJRLU
+    [importo] => 472.54
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 6506187461964814
+    [uidriscossione] => 77752629240944316768
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 09:37:32
+)
+alias=SUAP-Claspezia-M1&codTrans=LWUXI45OBG7QG3Q0T4SU2OCP8GJRLU&importo=472.54&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=6506187461964814&uidriscossione=77752629240944316768&ParametriAggiuntivi=&time=2019%2F01%2F28+09%3A37%3A32Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => X0QWG40UEGPZNMXWRWDX03797UE45B
+    [importo] => 472.54
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 2716028248406296
+    [uidriscossione] => 80040602256745262231
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 10:27:47
+)
+alias=SUAP-Claspezia-M1&codTrans=X0QWG40UEGPZNMXWRWDX03797UE45B&importo=472.54&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=2716028248406296&uidriscossione=80040602256745262231&ParametriAggiuntivi=&time=2019%2F01%2F28+10%3A27%3A47Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => GZP8JOAQS54XNH3O7O50592CERQGF4
+    [importo] => 266.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 3103617671829920
+    [uidriscossione] => 29274273831965788172
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/28 15:53:02
+)
+alias=SUAP-Claspezia-M1&codTrans=GZP8JOAQS54XNH3O7O50592CERQGF4&importo=266.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=3103617671829920&uidriscossione=29274273831965788172&ParametriAggiuntivi=&time=2019%2F01%2F28+15%3A53%3A02Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 11268066728099292327
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:12:34
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=11268066728099292327&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A12%3A34Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 89251275233662603652
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:42:29
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=89251275233662603652&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A42%3A29Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 38577690880018823043
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:43:42
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=38577690880018823043&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A43%3A42Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 78335156507407316128
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:45:51
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=78335156507407316128&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A45%3A51Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 66726177247514603396
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:47:56
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=66726177247514603396&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A47%3A56Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 36843106456365225993
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:50:23
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=36843106456365225993&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A50%3A23Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => FXOOD7QNTICJ61904VFNAUV4H6BGTQ
+    [importo] => 428.55
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 8935188856582897
+    [uidriscossione] => 01829066181121444446
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:51:44
+)
+alias=SUAP-Claspezia-M1&codTrans=FXOOD7QNTICJ61904VFNAUV4H6BGTQ&importo=428.55&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=8935188856582897&uidriscossione=01829066181121444446&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A51%3A44Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 37844423458028473198
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/30 17:53:45
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=37844423458028473198&ParametriAggiuntivi=&time=2019%2F01%2F30+17%3A53%3A45Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 42444027336782219713
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/31 14:34:06
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=42444027336782219713&ParametriAggiuntivi=&time=2019%2F01%2F31+14%3A34%3A06Array
+(
+    [alias] => SUAP-Claspezia-M1
+    [codTrans] => 38NWA96YQX2X3QB4AAABPOJEJKCWDJ
+    [importo] => 80.00
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1425154129794484
+    [uidriscossione] => 12947232523554989946
+    [ParametriAggiuntivi] => 
+    [time] => 2019/01/31 14:35:18
+)
+alias=SUAP-Claspezia-M1&codTrans=38NWA96YQX2X3QB4AAABPOJEJKCWDJ&importo=80.00&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1425154129794484&uidriscossione=12947232523554989946&ParametriAggiuntivi=&time=2019%2F01%2F31+14%3A35%3A18Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => HUL1ZRGSQJ28R60VVCC95626O2TJ2D
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1336079088777240
+    [uidriscossione] => 34510239216303631271
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:17:30
+)
+alias=SUE-Claspezia-M1&codTrans=HUL1ZRGSQJ28R60VVCC95626O2TJ2D&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1336079088777240&uidriscossione=34510239216303631271&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A17%3A30Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => HUL1ZRGSQJ28R60VVCC95626O2TJ2D
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1336079088777240
+    [uidriscossione] => 86639143643105705039
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:20:03
+)
+alias=SUE-Claspezia-M1&codTrans=HUL1ZRGSQJ28R60VVCC95626O2TJ2D&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1336079088777240&uidriscossione=86639143643105705039&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A20%3A03Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => HUL1ZRGSQJ28R60VVCC95626O2TJ2D
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 1336079088777240
+    [uidriscossione] => 72654386029127838183
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:22:52
+)
+alias=SUE-Claspezia-M1&codTrans=HUL1ZRGSQJ28R60VVCC95626O2TJ2D&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=1336079088777240&uidriscossione=72654386029127838183&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A22%3A52Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => EJTBKJ62USJJXQ864A4PFCCMGMORUO
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 0026061587971372
+    [uidriscossione] => 45522593630268190884
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:31:32
+)
+alias=SUE-Claspezia-M1&codTrans=EJTBKJ62USJJXQ864A4PFCCMGMORUO&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=0026061587971372&uidriscossione=45522593630268190884&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A31%3A32Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => H6N863HXIVYJLGJ8KLBDOZKPXNJR81
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 0809365567778874
+    [uidriscossione] => 93481881703425002945
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:48:53
+)
+alias=SUE-Claspezia-M1&codTrans=H6N863HXIVYJLGJ8KLBDOZKPXNJR81&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=0809365567778874&uidriscossione=93481881703425002945&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A48%3A53Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => W03HA1YXQ3GAJQ82GPD6NE7SX6DLJW
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 8009009880078857
+    [uidriscossione] => 80148353696904935075
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 09:52:44
+)
+alias=SUE-Claspezia-M1&codTrans=W03HA1YXQ3GAJQ82GPD6NE7SX6DLJW&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=8009009880078857&uidriscossione=80148353696904935075&ParametriAggiuntivi=&time=2019%2F02%2F05+09%3A52%3A44Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => K0SIGLS0N49P1YNG7O495319JX4TQL
+    [importo] => 36.65
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 3347198923853286
+    [uidriscossione] => 99922530937257917923
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 10:07:14
+)
+alias=SUE-Claspezia-M1&codTrans=K0SIGLS0N49P1YNG7O495319JX4TQL&importo=36.65&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=3347198923853286&uidriscossione=99922530937257917923&ParametriAggiuntivi=&time=2019%2F02%2F05+10%3A07%3A14Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => 0V6TF42P65OFFYMUTF4LCCBXORMV6G
+    [importo] => 46.98
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 2953185397848519
+    [uidriscossione] => 34061090591001885419
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 10:21:02
+)
+alias=SUE-Claspezia-M1&codTrans=0V6TF42P65OFFYMUTF4LCCBXORMV6G&importo=46.98&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=2953185397848519&uidriscossione=34061090591001885419&ParametriAggiuntivi=&time=2019%2F02%2F05+10%3A21%3A02Array
+(
+    [alias] => SUE-Claspezia-M1
+    [codTrans] => 86M5K1BEJPMHCPGNIUGF2F3O7WDHVC
+    [importo] => 46.98
+    [mac] => 
+    [brand] => 
+    [tContab] => I
+    [esito] => OK
+    [divisa] => EUR
+    [data] => 
+    [orario] => 
+    [email] => 
+    [cognome] => 
+    [nome] => 
+    [IUV] => 4981189477167210
+    [uidriscossione] => 54728466141057701734
+    [ParametriAggiuntivi] => 
+    [time] => 2019/02/05 10:45:04
+)
+alias=SUE-Claspezia-M1&codTrans=86M5K1BEJPMHCPGNIUGF2F3O7WDHVC&importo=46.98&brand=&tContab=I&esito=OK&divisa=EUR&data=&orario=&IUV=4981189477167210&uidriscossione=54728466141057701734&ParametriAggiuntivi=&time=2019%2F02%2F05+10%3A45%3A04

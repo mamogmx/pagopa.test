@@ -1,0 +1,132 @@
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/3ZH9OM3RCTFY/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => Z1ECBZ6Q8BFSE24F7SPRXUCCAL089E
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => test
+                    [importo] => 10
+                    [ibanBeneficiario] => ISTRUTTORIA
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/MMIYGJ5TTG2F/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => SA28OPL2WOVMEIYSTLGKXY0I84GBDL
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => TEST PAGAMENTO
+                    [importo] => 36600
+                    [ibanBeneficiario] => BOLLI
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/MMIYGJ5TTG2F/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => SA28OPL2WOVMEIYSTLGKXY0I84GBDL
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => TEST PAGAMENTO
+                    [importo] => 36600
+                    [ibanBeneficiario] => BOLLI
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/MMIYGJ5TTG2F/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => SA28OPL2WOVMEIYSTLGKXY0I84GBDL
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => TEST PAGAMENTO
+                    [importo] => 36600
+                    [ibanBeneficiario] => BOLLI
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/QL8AZ4Y68431/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => FA44U0KXCD4DYFTTHIJHLAKN2ILDR4
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => TEST PAGAMENTO BOLLETTINO
+                    [importo] => 41600
+                    [ibanBeneficiario] => BOLLI
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)
+Array
+(
+    [urlPost] => http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/JMO8LNTJ9L2V/notificaTransazione
+    [identificativoFiscalePagatore] => CRBMRC74D19D969P
+    [codTrans] => FF8932U3LUXK85F9QJ4S2JDLG2RUWZ
+    [anagraficaPagatore] => Marco Carbone
+    [tipoPagatore] => F
+    [alias] => SUAP-Claspezia-M1
+    [listaDatiSingoloPagamento] => Array
+        (
+            [0] => Array
+                (
+                    [divisa] => EUR
+                    [causale] => TEST PAGAMENTO BOLLETTINO
+                    [importo] => 55689
+                    [ibanBeneficiario] => BOLLI
+                )
+
+        )
+
+    [metodo] => BOLLETTINO
+)

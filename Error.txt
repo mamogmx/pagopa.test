@@ -1,0 +1,36 @@
+Array
+(
+    [0] => 42601
+    [1] => 7
+    [2] => ERRORE:  errore di sintassi a o presso "cf"
+LINE 1: ...pagopa.richiesta(codtrans, metodo, iuv,nominativo cf, data_s...
+                                                             ^
+)
+Array
+(
+    [0] => SA28OPL2WOVMEIYSTLGKXY0I84GBDL
+    [1] => BOLLETTINO
+    [2] => 5860812363193073
+    [3] => Marco Carbone
+    [4] => CRBMRC74D19D969P
+    [5] => {"urlPost": "http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/MMIYGJ5TTG2F/notificaTransazione", "identificativoFiscalePagatore": "CRBMRC74D19D969P", "codTrans": "SA28OPL2WOVMEIYSTLGKXY0I84GBDL", "anagraficaPagatore": "Marco Carbone", "tipoPagatore": "F", "alias": "SUAP-Claspezia-M1", "listaDatiSingoloPagamento": [{"divisa": "EUR", "causale": "TEST PAGAMENTO", "importo": "36600", "ibanBeneficiario": "BOLLI"}]}
+    [6] => 2019/01/24 09:12:07
+)
+Array
+(
+    [0] => 42601
+    [1] => 7
+    [2] => ERRORE:  errore di sintassi a o presso "cf"
+LINE 1: ...pagopa.richiesta(codtrans, metodo, iuv,nominativo cf, data_s...
+                                                             ^
+)
+Array
+(
+    [0] => SA28OPL2WOVMEIYSTLGKXY0I84GBDL
+    [1] => BOLLETTINO
+    [2] => 2962626207617142
+    [3] => Marco Carbone
+    [4] => CRBMRC74D19D969P
+    [5] => {"urlPost": "http://195.168.2.8:10080/pagopa/SUAP-ClaSpezia-M1/MMIYGJ5TTG2F/notificaTransazione", "identificativoFiscalePagatore": "CRBMRC74D19D969P", "codTrans": "SA28OPL2WOVMEIYSTLGKXY0I84GBDL", "anagraficaPagatore": "Marco Carbone", "tipoPagatore": "F", "alias": "SUAP-Claspezia-M1", "listaDatiSingoloPagamento": [{"divisa": "EUR", "causale": "TEST PAGAMENTO", "importo": "36600", "ibanBeneficiario": "BOLLI"}]}
+    [6] => 2019/01/24 09:12:34
+)
