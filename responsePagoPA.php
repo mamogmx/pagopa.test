@@ -9,7 +9,7 @@ require_once "config.php";
 
 $keys = array_keys($_REQUEST);
 $dbh = getDb();
-//print_r($_REQUEST);
+
 if(in_array('esito',$keys) && in_array('id-richiesta',$keys)){
 	$id = $_REQUEST["id-richiesta"];
 	$esito = $_REQUEST["esito"];
@@ -78,83 +78,82 @@ if(in_array('esito',$keys) && in_array('id-richiesta',$keys)){
 	$result = curl_exec($ch);
 	echo $result;
 }
+
 if (in_array('iuv',$keys)){
-    $iuv = base64_decode($_REQUEST["iuv"]);
-    $iuv = ($iuv)?($iuv):($_REQUEST["iuv"]);
+    $mode = (empty(htmlspecialchars(base64_decode($iuv, true))))?('text'):('base64');
+    $template = ($mode=='base64')?("template_2"):("template_1");
+    
+    $iuv = ($mode=='base64')?(base64_decode($_REQUEST["iuv"])):($_REQUEST["iuv"]);
+    
     $sql = "SELECT * FROM pagopa.richiesta WHERE iuv=?;";
     $stmt = $dbh->prepare($sql);
 
-    if(!$stmt->execute()){
+    if(!$stmt->execute(Array($iuv))){
         print_r($stmt->errorInfo());
-	die();
+	die("B");
     }
 }
 else{
+
+    $template = "template_2";
     $sql = "SELECT * FROM pagopa.richiesta WHERE data_pagamento IS NULL;";
     $stmt = $dbh->prepare($sql);
 
     if(!$stmt->execute()){
         print_r($stmt->errorInfo());
-	die();
+	die("A");
     }
 }
+
 $res = $stmt->fetchAll(PDO::FETCH_ASSOC);
 
-for($i=0;$i<count($res);$i++){
-	
-	$text = sprintf("<option value='%s'>%s - %s -IMPORTO : %s Euro con IUV : %s</option>",$res[$i]["id"],$res[$i]["metodo"],$res[$i]["nominativo"],$res[$i]["importo"],$res[$i]["iuv"]);
-	$arrOptions[] = $text;
+for($i=0;$i<count($res);$i++){	
+    $text = sprintf("<option value='%s'>%s - %s -IMPORTO : %s Euro con IUV : %s</option>",$res[$i]["id"],$res[$i]["metodo"],$res[$i]["nominativo"],$res[$i]["importo"],$res[$i]["iuv"]);
+    $arrOptions[] = $text;
 }
 if (count($res)==0) $arrOptions[]="<option value=''>Nessuna richiesta da processare</option>";
 $options=implode("\n",$arrOptions);
 
-$params = Array(
-    "alias"=>"SUAP-Claspezia-M1",
-    "codTrans"=>"null",
-    "importo"=>"1600",
-    "mac"=>"3f24c3df5c0a5f997c3527817957f15c2492c305",
-    "brand"=>"",
-    "tContab"=>"I",
-    "esito"=>"ATTESA_RT",
-    "divisa"=>"EUR",
-    "data"=>"",
-    "orario"=>"",
-    "email"=>"athei@libero.it",
-    "cognome"=>"REAL+SERVICE+S.R.L.",
-    "nome"=>"REAL+SERVICE+S.R.L.",
-    "IUV"=>"0019000000000000000000000005122",
-    "uidriscossione"=>"",
-    "ParametriAggiuntivi"=>"null"
-);
+$f=fopen("./template/$template.html",'r');
+$formTemplate = fread($f,filesize("./template/$template.html"));
+switch($template){
+    case "template_1":
+        $res = $res[0];
+        
+        $importo = $res["importo"];
+	$data = json_decode($res["data_store"],TRUE);
+	$url = $data["urlPost"];
+        $fields = Array(
+                "url"=>$url,
+                "iuv"=>$iuv,
+		"alias"=>$data["alias"],
+		"codTrans"=>$data["codTrans"],
+		"importo"=> $importo,
+		"mac"=>$data["mac"],
+		"brand"=>"",
+		"tContab"=>"I",
+		"esito"=>$esito,
+		"divisa"=>"EUR",
+		"data"=>"",
+		"orario"=>"",
+		"email"=>$data["email"],
+		"cognome"=>$res["nominativo"],
+		"nome"=>$res["nominativo"],
+		"ParametriAggiuntivi"=>"",
+		"time" => date('Y/m/d H:i:s')
+	);
+        foreach($fields as $k=>$v){
+            $formTemplate = str_replace("[$k]",$v, $formTemplate);
+        }
+        $form = $formTemplate;
+        break;
+    case "template_2":
+        $form = sprintf($formTemplate,$options);
+        break;
+    default:
+        $form = "";
+}
 
-$formTemplate =<<<EOT
-        <form id="richiesta" method="POST">
-            <input type="hidden" name="alias" value="SUAP-ClaSpezia-M1"/>
-            <input type="hidden" name="IUV" value="0019000000000000000000000475778"/>
-            <input type="hidden" name="codTrans" value="8CCF206TKCX9BMPXEEA4ABDAPVFB6P"/>
-            <div class="container-fluid" style="padding:50px;">
-                <div class="form-group">
-                    <label for="nome">Seleziona la richiesta da Processare</label>
-                    <select name="id-richiesta" id="richiesta">
-						$options
-					</select>
-                </div>        
-                
-            <hr>
-                <div class="row-fluid">
-                    <div class="span12">
-                    <button type="submit" class="btn btn-primary" name="esito" value="OK" ">Esito OK</button>
-                    <button type="submit" class="btn btn-primary" name="esito" value="ATTESA_RP" >Attesa RP</button>
-                    <button type="submit" class="btn btn-primary" name="esito" value="ANNULLO" >Annulla Transazione</button>
-                    <button type="submit" class="btn btn-primary" name="esito" value="KO" >Errore Transazione</button>
-                   <!-- <button type="submit" class="btn btn-primary" name="esito" value="IN_ATTESA_PSP" formaction=""></button>-->
-                    </div>
-                </div>
-                
-            </div>
-        </form>    
-EOT;
-$form = $formTemplate;
 ?>
 <html>
     <head>

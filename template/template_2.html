@@ -1,0 +1,24 @@
+<form id="richiesta" method="POST">
+    <input type="hidden" name="alias" value="SUAP-ClaSpezia-M1"/>
+    <input type="hidden" name="IUV" value="0019000000000000000000000475778"/>
+    <input type="hidden" name="codTrans" value="8CCF206TKCX9BMPXEEA4ABDAPVFB6P"/>
+    <div class="container-fluid" style="padding:50px;">
+        <div class="form-group">
+            <label for="nome">Seleziona la richiesta da Processare</label>
+            <select name="id-richiesta" id="richiesta">
+                %s
+            </select>
+        </div>        
+
+    <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <button type="submit" class="btn btn-primary" name="esito" value="OK">Esito OK</button>
+                <button type="submit" class="btn btn-primary" name="esito" value="ATTESA_RP" >Attesa RP</button>
+                <button type="submit" class="btn btn-primary" name="esito" value="ANNULLO" >Annulla Transazione</button>
+                <button type="submit" class="btn btn-primary" name="esito" value="KO" >Errore Transazione</button>
+                <button type="submit" class="btn btn-primary" name="action" value="" >Annulla</button>
+            </div>
+        </div>
+</form>    
+

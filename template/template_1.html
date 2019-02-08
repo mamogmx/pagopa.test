@@ -1,0 +1,66 @@
+<form id="richiesta" method="GET" action="[url]">
+    <input type="hidden" name="alias" value="[alias]"/>
+    <input type="hidden" name="IUV" id="iuv" value="[iuv]"/>
+    <input type="hidden" name="codTrans" value="[codTrans]"/>
+    <input type="hidden" name="mac" value="[mac]"/>
+    <input type="hidden" name="importo" value="importo"/>
+    <input type="hidden" name="uidriscossione" id="uidriscossione" value=""/>
+    <input type="hidden" name="email" value="[email]"/>
+    <input type="hidden" name="data" id="data" value="[data]"/>
+    <input type="hidden" name="orario" id="orario" value="[orario]"/>
+    <input type="hidden" name="cognome" value="[cognome]"/>
+    <input type="hidden" name="nome" value="%[nome]"/>
+    <input type="hidden" name="tContab" value="I"/>
+    <input type="hidden" name="brand" value=""/>
+    <input type="hidden" name="divisa" value="EUR"/>
+    <input type="hidden" name="time" value="[time]"/>
+    <input type="hidden" name="esito" value=""/>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span4">
+                <label>Nominativo</label>
+                <b style="margin-left:10px">[nome]</b>
+            </div>
+            <div class="span4">
+                <label>Iuv del versamento</label>
+                <b style="margin-left:10px">[nome]</b>
+            </div>
+            <div class="span4">
+                <label>Importo da versare</label>
+                <b style="margin-left:10px">[importo] &euro;</b>
+            </div>
+        </div>    
+            <hr>
+        <div class="row-fluid">
+            <div class="span12">
+                <button type="button" class="btn btn-primary action" data-plugin="getUID" value="OK">Esito OK</button>
+                <button type="button" class="btn btn-primary action" data-plugin="getUID"  value="ATTESA_RP" >Attesa RP</button>
+                <button type="button" class="btn btn-primary action" data-plugin="getUID"  value="ANNULLO" >Annulla Transazione</button>
+                <button type="button" class="btn btn-primary action" data-plugin="getUID" value="KO" >Errore Transazione</button>
+                <button type="submit" class="btn btn-primary" name="action" value="" >Annulla</button>
+            </div>
+        </div>
+    </div>
+</form>
+
+<script>
+    $(".action").bind('click',function(event){
+        event.preventDefault();
+        var iuv = $('#iuv').val();
+        var esito = $(this).val();
+        var obj = {'iuv':iuv,'esito':esito};
+        $.ajax("xServer.php",{
+            data: obj,
+            method:'POST',
+            success:function(data,textStatus,jqXHR){
+                $('#uidriscossione').val(data['uid']);
+                $('#data').val(data['time']);
+                $('#orario').val(data['time']);
+                $('#esito').val(data['esito']);
+                $('#richiesta').submit();
+            }
+        })
+    });
+    
+</script>
