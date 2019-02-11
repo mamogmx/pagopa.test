@@ -20,12 +20,12 @@ $result = Array(
     "message" => ""
 );
 
-$sql = "UPDATE pe.richiesta SET esito=?, data_pagamento=?, uidriscossione=? WHERE iuv = ?";
+$sql = "UPDATE pagopa.richiesta SET esito=?, data_pagamento=?, uidriscossione=? WHERE iuv = ?";
 $stmt = $dbh->prepare($sql);
 
 if(!$stmt->execute(Array($esito,$tms,$uid,$iuv))){
     $r = $stmt->errorInfo();
-    $result["message"] = $r[1];    
+    $result["message"] = $r[2];    
     
 }
 else{

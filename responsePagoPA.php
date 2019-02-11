@@ -122,7 +122,7 @@ switch($template){
         
         $importo = $res["importo"];
 	$data = json_decode($res["data_store"],TRUE);
-	$url = $data["urlPost"];
+	$url = $data["urlOk"];
         $fields = Array(
                 "url"=>$url,
                 "iuv"=>$iuv,
