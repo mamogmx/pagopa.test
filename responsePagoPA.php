@@ -83,15 +83,28 @@ if (in_array('iuv',$keys)){
     $mode = (empty(htmlspecialchars(base64_decode($iuv, true))))?('text'):('base64');
     $template = ($mode=='base64')?("template_2"):("template_1");
     
-    $iuv = ($mode=='base64')?(base64_decode($_REQUEST["iuv"])):($_REQUEST["iuv"]);
-    
-    $sql = "SELECT * FROM pagopa.richiesta WHERE iuv=?;";
+    //$iuv = ($mode=='base64')?(base64_decode($_REQUEST["iuv"])):($_REQUEST["iuv"]);
+    $iuvDecoded = base64_decode($_REQUEST["iuv"]);
+    $iuv = $_REQUEST["iuv"];
+    $sql = "SELECT * FROM pagopa.richiesta WHERE iuv in (?,?);";
     $stmt = $dbh->prepare($sql);
 
+    if(!$stmt->execute(Array($iuv,$iuvDecoded))){
+    print_r($stmt->errorInfo());
+	print_r(Array($iuv,$iuvDecoded));
+	die($sql);
+    }
+    $rr = $stmt->fetch(PDO::FETCH_ASSOC);
+    $iuv = $rr["iuv"];
+    $metodo = $rr["metodo"];
+    $template = ($metodo=='ONLINE')?("template_2"):("template_1");
+    $sql = "SELECT * FROM pagopa.richiesta WHERE iuv = ?;";
+    $stmt = $dbh->prepare($sql);
     if(!$stmt->execute(Array($iuv))){
         print_r($stmt->errorInfo());
-	die("B");
+        die("B");
     }
+
 }
 else{
 
@@ -119,10 +132,10 @@ $formTemplate = fread($f,filesize("./template/$template.html"));
 switch($template){
     case "template_1":
         $res = $res[0];
-        
+        print_r($res);
         $importo = $res["importo"];
 	$data = json_decode($res["data_store"],TRUE);
-	$url = $data["urlOk"];
+	$url = $data["urlPost"];
         $fields = Array(
                 "url"=>$url,
                 "iuv"=>$iuv,
